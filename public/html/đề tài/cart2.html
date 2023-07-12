@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- header -->
+    <section class="header">
+        <div class="fisrt">
+        <a class="logo" href="#">
+            <img id="logo-header" src="./ảnh/footer&logo/logo-con-ca-voi-20.png" alt="">
+            <h3>NW.S</h3>
+        </a>
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a class="active" href="index.html">
+                    <i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li><a href="laptop.html">
+                    <i class="fa-solid fa-laptop"></i>Laptop
+                </a></li>
+                <li><a href="dienthoai.html">
+                    <i class="fa-sharp fa-solid fa-mobile-screen-button"></i> Điện thoại
+                </a></li>
+                <li><a href="phukien.html">
+                    Phụ kiện
+                </a></li>
+                <form class="search-header">
+                    <input type="text" id="search-header-text"
+                    placeholder="Nhập để tìm kiếm sản phẩm" required>
+                    <button id="btn-search-header">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <li><a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a></li>
+                <li><a href="log.html">
+                    <i class="fa-regular fa-circle-user"></i>
+                </a></li>
+            </ul>
+        </div>
+    </section >
+            <section class="cart">
+                <h2>Cart</h2>
+                <br><br>
+                <form action="">
+                    <table>
+                        <thead>
+                            <!-- thẻ dòng -->
+                            <tr>
+                                <!-- thẻ cột  -->
+                                <th>STT</th>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>SL</th>
+                                <th>Chọn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td style="display: flex; align-items: center;"><img style=" width: 80px;"src="./ảnh/sp/laptop/hp-aio-22-dd2002d-i5-6k7g1pa-thumb-1-600x600.jpg" alt=""> HP aio 22</td>
+                                <td>  <p ><span>17.070.000</span> <sup>đ</sup></p></td>
+                                <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                                <td style="cursor: pointer;">Xóa</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td style="display: flex; align-items: center;"><img style=" width: 80px;"src="./ảnh/sp/điện thoại/iphone-13-mini-midnight-1-600x600.jpg" alt=""> Apple 13 mini</td>
+                                <td>  <p ><span>17.070.000</span> <sup>đ</sup></p></td>
+                                <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                                <td style="cursor: pointer;">Xóa</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div  class="price-total">
+                    <p style="font-weight:bold ;">Tổng tiền:<span>17.070.000</span> <sup>đ</sup> </p>
+                </div>
+            </section>
+            <!--thanh toán  -->
+            <section>
+                <div class="adreess-form">
+                    <div class="adress-form-content">
+                        <h6>Chọn địa chỉ nhận hàng </h6>
+                        <form action="">
+                            <select name=""required>
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Hà Nội</option>
+                                <option value="#">Tp.Hồ Chí Minh</option>
+                                <option value="#">Đà Nẵng</option>
+                                <option value="#">Thái Bình</option>
+                                <option value="#">Nam Định</option>
+                            </select>
+                            <select name=""required>
+                                <option value="#">Quận/Huyện</option>
+                                <option value="#">Thanh Xuân</option>
+                            </select>
+                            <select name="" required>
+                                <option value="#">Chọn phương thức thanh toán </option>
+                                <option value="#">Thanh toán khi nhận hàng</option>
+                            </select>
+                            <input type="text" id="phone_pay" placeholder="Nhập số điện thoại " required>
+                            <input type="text" id="home_pay" placeholder="Số nhà , Tên đường" required>
+                            <button>Đặt hàng </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img  style="height: 140px;width: 140px; object-fit: contain;" src="./ảnh/footer&logo/logo-con-ca-voi-20.png" class="logo"alt="">
+            <h4>Liên hệ: 089472748  </h4>
+            <p> <strong>Địa chỉ </strong> : 127 Chiến Thắng , Văn Quán , Hà Đông , Hà Nội</p>
+            <p><strong>Thời gian làm việc </strong> 10:00 - 18:00 , Thứ Hai - Thứ Sáu</p>
+            <div class="follow">
+                 <h4> Theo dõi chúng tôi </h4>
+                 <div class="icon">
+                     <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                 </div>
+             </div>
+         </div>
+        <div class="col install">
+           <h4>Cài đặt app</h4>
+            <p>Cài đặt tại App Store hoặc Google Play</p>
+            <div class="row">
+                <img src="./ảnh/footer/app.jpg" alt="">
+                <img src="./ảnh/footer/play.jpg" alt="">
+            </div>
+            <p> Các phương thức thanh toán nhanh  </p>
+            <img src="./ảnh/footer/pay.png" alt="">
+        </div>
+    </footer>
+
+</body>
+</html>
